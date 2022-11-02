@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-right: 10rem;
+}
+
+.form label,
+.form button {
+  margin: 16px 0;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  padding: 4px;
+  font: inherit;
+}
+
+.form button {
+  cursor: pointer;
+}
+
+.error {
+  border: 2px solid #f00;
+}
+
+.no-display {
+  display: none;
+}
+
+.info {
+  font-size: 18px;
+}
+
+.info-key {
+  font-weight: bold;
+}
+
+th {
+  padding: 1rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+input {
+  width: 19.4rem;
+  margin-bottom: 1rem;
+}
